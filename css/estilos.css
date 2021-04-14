@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #AF528E;
+}
+header{
+	background: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100px;
+	margin-top: -40px;
+}
+header a{
+	text-decoration: none;
+}
+header h1{
+	color: #EE45C5;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+  font-family: sans-serif;
+  text-shadow: 3px 3px 8px  #EE45C5;
+}
+#contenedor{
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background: url('../img/contenedor.jpg');
+}
+.contenido{
+  display: inline-block;
+  width: 1200px;
+  text-align: center;
+}
+img{
+  border-style: solid;
+  border-color: #8B2868;
+}
+p{
+	font-size: 25px;
+	font-family: arial;
+	color: black;
+	font-weight: 700;
+  text-shadow: 3px 3px 8px  #EE45C5;
+}
+a{
+  text-decoration: none;
+}
+input[type=range],
+output {
+  display: block;
+}
+#ctEntrada{
+  display: block;
+  margin-left: 540px;
+}
+#ctDispositivo{
+  color: rgb(255, 6, 151);
+}
+h2{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    margin-top: auto;
+    background: #FFB4ED;
+    text-shadow: 3px 3px 8px  #EE45C5;
+    background-size: 100% 100%;
+    height: 60px;
+    line-height: 60px;
+}
+table{
+  text-align: center;
+  background-color: #FFB4ED;
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+
+}
+td, th{
+  padding: 10px;
+}
+thead{
+  background-color: #EE45C5;
+  color: #fff;
+  border-bottom: solid 5px black;
+}
+tr:nth-child(even){
+  background-color: #FFC3FE;
+}
+tr:hover td{
+  background-color: #FF85FD;
+  color: white;
+}
+.footer{
+	height: 60px;
+	background: url('../img/fondo.jpg');
+	clear: both;
+	background-size: 100% 100%;
+	font-size: 20px;
+	color: #EE45C5;
+	text-align: center;
+	line-height: 60px;
+	font-style: italic;
+  text-shadow: 3px 3px 8px  #EE45C5;
+}
